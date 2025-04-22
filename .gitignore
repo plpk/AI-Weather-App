@@ -37,3 +37,15 @@ build/
 
 # Protect sensitive data
 .env
+
+echo ".env" > .gitignore
+echo ".dart_tool/" >> .gitignore
+echo "build/" >> .gitignore
+echo ".flutter-plugins" >> .gitignore
+echo ".flutter-plugins-dependencies" >> .gitignore
+echo ".idea/" >> .gitignore
+echo ".vscode/" >> .gitignore
+echo "*.iml" >> .gitignore
+echo "*.log" >> .gitignore
+echo "*.lock" >> .gitignore
+echo "!pubspec.lock" >> .gitignore
