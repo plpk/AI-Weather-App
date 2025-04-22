@@ -1,6 +1,6 @@
-# Pablo's Weather App
+# AI Weather App
 
-A Flutter weather application that displays current weather conditions based on user location or city search styled like GrapheneOS. 
+A Flutter weather application that displays current weather conditions based on user location or city search and offers an AI Weather Report. 
 
 ## Features
 - Current weather display with temperature, conditions and icon
@@ -11,6 +11,7 @@ A Flutter weather application that displays current weather conditions based on 
 
 ## Technologies Used
 - Flutter
+- - Gemini nano
 - OpenWeatherMap API
 - Geolocator for location services
 - HTTP package for API requests
