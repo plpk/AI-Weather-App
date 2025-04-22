@@ -1,12 +1,12 @@
 plugins {
-    id("com.android.application")
+    id("com.plpk.aiweather")
     id("kotlin-android")
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id("dev.flutter.flutter-gradle-plugin")
 }
 
 android {
-    namespace = "com.example.weather_app"
+    namespace = "com.plpk.aiweather"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
     ndkVersion = "27.0.12077973"

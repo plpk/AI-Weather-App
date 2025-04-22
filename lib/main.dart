@@ -29,7 +29,7 @@ Future<void> main() async {
       // Provide fallback for API key in case .env fails
       print("Failed to load .env file: $e");
       dotenv.env['OPENWEATHER_API_KEY'] = 'e9c3421c08b0711c3430f4fa3502e393';
-      dotenv.env['GEMINI_API_KEY'] = ''<YOUR_GEMINI_API_KEY>';
+      dotenv.env['GEMINI_API_KEY'] = '<YOUR_GEMINI_API_KEY>';
     }
     
     runApp(const MyApp());
